@@ -94,7 +94,7 @@ class AudioWhatCounter:
                             self.similarity_matches.append({
                                 'timestamp': datetime.now()
                             })
-                        print(f"✅ MATCH! | Total: {self.similarity_count}\n")
+                        print(f"✅ What Identified! | Total: {self.similarity_count}\n")
                     else:
                         print("⚠️  No match\n")
                         
