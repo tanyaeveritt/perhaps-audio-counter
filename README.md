@@ -4,7 +4,7 @@ A Python application that listens to live audio and counts instances of spoken w
 
 ## Overview
 
-This program continuously monitors your microphone and compares incoming audio against a reference audio file (`what.m4a`). When it detects audio that is more than 90% acoustically similar to the reference, it increments a counter and logs the match.
+This program continuously monitors your microphone and compares incoming audio against a reference text. When it detects audio that matches the text input, it increments a counter and logs the match.
 
 ### Key Features
 
